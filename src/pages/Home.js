@@ -1,8 +1,16 @@
 import React from 'react';
-import { Button } from 'antd';
 
-export default (props) => {
+import Carousel from "../components/Carousel";
+
+const Home = () => {
   return (
-    <Button type="primary">Button</Button>
+    <div className="homepage">
+      <Carousel />
+      <div style={{height: "5000px"}}>
+
+      </div>
+    </div>
   );
 };
+
+export default Home;
