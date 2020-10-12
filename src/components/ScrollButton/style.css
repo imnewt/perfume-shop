@@ -1,15 +1,14 @@
-.scroll-btn {
+#scroll-btn {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    padding: 1rem;
-    background-color: #969696;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem 0.8rem;
+    background-color: #000;
     cursor: pointer;
     visibility: hidden;
     transition: all .3s;
 }
 
-.scroll-btn img {
-    height: 1.5rem;
-    width: 1.5rem;
+#scroll-btn i {
+    color: #fff;
 }

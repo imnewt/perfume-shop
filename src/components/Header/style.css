@@ -1,7 +1,9 @@
-#myHeader {
+#header {
     position: fixed;
     z-index: 2;
     width: 100%;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
 }
 
 .header-link {

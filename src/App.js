@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import DynamicScrollToTop from "./components/DynamicScrollToTop"
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import ScrollButton from "./components/ScrollButton";
 
 import Home from "./pages/Home";
@@ -21,6 +22,7 @@ const App = () => {
           <DynamicScrollToTop />
           <Header />
           <Route path="/" exact component={Home} />
+          <Footer />
           <ScrollButton />
         </div>
       </Router>

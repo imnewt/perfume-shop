@@ -17,7 +17,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
     return (
-        <div style={{backgroundColor: "#f8f9fa"}} id="myHeader">
+        <div id="header">
             <div className="container">
                 <Navbar color="light" light expand="md">
                     <NavbarBrand>

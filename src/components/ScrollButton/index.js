@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import arrowUp from "../../assets/icons/arrow-up.png";
 
 const ScrollButton = () => {
     const scrollToTop = () => {
@@ -14,13 +13,8 @@ const ScrollButton = () => {
     }
 
     return (
-        <a 
-            id="scroll-btn"
-            href="#top"
-            onClick={scrollToTop}
-            className="scroll-btn"
-        >
-            <img src={arrowUp}/>
+        <a id="scroll-btn" href="#top" onClick={scrollToTop}>
+            <i class="fas fa-chevron-up"></i>
         </a>
     );
 };

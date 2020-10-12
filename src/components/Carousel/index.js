@@ -20,7 +20,7 @@ class Carousel extends Component {
             image: Slider1
         },
         {
-            title: 'CHẤT LƯỢNG TỐT',
+            title: 'CHẤT LƯỢNG ĐẢM BẢO',
             description:
             'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
             button: 'Mua Ngay',
