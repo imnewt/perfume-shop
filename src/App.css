@@ -23,7 +23,7 @@ a {
 .heading {
     text-align: center;
     text-transform: uppercase;
-    margin: 2rem;
+    --margin-top: 5rem;
 }
 
 .heading::after {
@@ -31,10 +31,18 @@ a {
     display: block;
     margin: 20px auto 0;
     width: 80px;
-    height: 5px;
+    height: 3px;
     background: #000;
 }
 
 .font-weight-5 {
     font-weight: 500;
+}
+
+#contactpage span{
+    font-size: 1rem;
+}
+
+.id-block {
+    height: 7rem;
 }

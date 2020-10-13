@@ -35,7 +35,17 @@ const Header = () => {
                             </NavItem>
                             <NavItem>
                                 <NavLink className="ml-lg-5">
-                                    <Link className="header-link" to="/books/all">Sản phẩm</Link>
+                                    <Link className="header-link" to="#nuoc-hoa-nam">Nước hoa nam</Link>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="ml-lg-5">
+                                    <Link className="header-link" to="#nuoc-hoa-nu">Nước hoa nữ</Link>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="ml-lg-5">
+                                    <Link className="header-link" to="#nuoc-hoa-mini">Nước hoa mini</Link>
                                 </NavLink>
                             </NavItem>
                             <NavItem className="ml-lg-5">

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
 import Slider from 'react-animated-slider';
@@ -9,9 +9,9 @@ import './style.css';
 import Slider1 from "../../assets/images/slider1.jpg";
 import Slider2 from "../../assets/images/slider2.jpg";
 import Slider3 from "../../assets/images/slider3.jpg";
-class Carousel extends Component {
-    state = {
-        content: [
+
+const Carousel = () => {
+    const [content] = useState([
         {
             title: 'SẢN PHẨM ĐA DẠNG',
             description:
@@ -33,31 +33,27 @@ class Carousel extends Component {
             button: 'Mua Ngay',
             image: Slider3
         }
-        ]
-    }
+    ]);
 
-    render() {
-        const { content } = this.state;
-        return (
-            <Slider className="slider-wrapper" autoplay={2500}>
-                {content.map((item, index) => (
-                    <div
-                        key={index}
-                        className="slider-content"
-                        style={{ background: `url('${item.image}') no-repeat center center` }}
-                    >
-                        <div className="inner pt-6">
-                            <h1>{item.title}</h1>
-                            <p>{item.description}</p>
-                            <Link to="/books/all">
-                                <button>{item.button}</button>
-                            </Link>
-                        </div>
+    return (
+        <Slider className="slider-wrapper" autoplay={2500}>
+            {content.map((item, index) => (
+                <div
+                    key={index}
+                    className="slider-content"
+                    style={{ background: `url('${item.image}') no-repeat center center` }}
+                >
+                    <div className="inner pt-6">
+                        <h1>{item.title}</h1>
+                        <p>{item.description}</p>
+                        <Link to="#nuoc-hoa-nam">
+                            <button>{item.button}</button>
+                        </Link>
                     </div>
-                ))}
-            </Slider>
-        )
-    }
+                </div>
+            ))}
+        </Slider>
+    )
 }
 
 export default Carousel;
