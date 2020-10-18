@@ -7,3 +7,11 @@
 .border-bottom {
     border-bottom: 1px solid #ebebeb;
 }
+
+#footer a {
+    font-size: 1.1rem;
+}
+
+#footer p {
+    font-size: 1.1rem;
+}

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 import Logo from "../../assets/images/logo.png";
 import "./style.css"
 import {
@@ -35,17 +34,17 @@ const Header = () => {
                             </NavItem>
                             <NavItem>
                                 <NavLink className="ml-lg-5">
-                                    <Link className="header-link" to="#nuoc-hoa-nam">Nước hoa nam</Link>
+                                    <Link className="header-link" to="/#nuoc-hoa-nam">Nước hoa nam</Link>
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="ml-lg-5">
-                                    <Link className="header-link" to="#nuoc-hoa-nu">Nước hoa nữ</Link>
+                                    <Link className="header-link" to="/#nuoc-hoa-nu">Nước hoa nữ</Link>
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="ml-lg-5">
-                                    <Link className="header-link" to="#nuoc-hoa-mini">Nước hoa mini</Link>
+                                    <Link className="header-link" to="/#nuoc-hoa-mini">Nước hoa mini</Link>
                                 </NavLink>
                             </NavItem>
                             <NavItem className="ml-lg-5">

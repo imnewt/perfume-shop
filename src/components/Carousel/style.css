@@ -17,9 +17,9 @@ button {
     text-transform: uppercase;
     box-sizing: border-box;
     outline: none !important;
-    padding: 10px 40px;
+    padding: 10px 45px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 18px;
     cursor: cursor;
 }
 
@@ -81,8 +81,11 @@ button:hover {
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    top: 58%;
+    top: 50%;
     left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -96,10 +99,10 @@ button:hover {
 
 .slider-content .inner h1 {
     font-weight: 700;
-    margin: 0 auto;
-    max-width: 1000px;
+    --margin: 0 auto;
+    --max-width: 1000px;
     color: #FFFFFF;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 1;
 }
 
@@ -177,6 +180,7 @@ button:hover {
 }
 
 .slide button {
+    margin-top: 5rem;
 	transition: all 0.3s ease;
 	-webkit-transform: translateY(20px);
 	transform: translateY(20px);

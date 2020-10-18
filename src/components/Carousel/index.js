@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-
 import './style.css';
-
 import Slider1 from "../../assets/images/slider1.jpg";
 import Slider2 from "../../assets/images/slider2.jpg";
 import Slider3 from "../../assets/images/slider3.jpg";
@@ -13,23 +10,17 @@ import Slider3 from "../../assets/images/slider3.jpg";
 const Carousel = () => {
     const [content] = useState([
         {
-            title: 'SẢN PHẨM ĐA DẠNG',
-            description:
-            'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
+            title: 'CAM KẾT HÀNG CHÍNH HÃNG',
             button: 'Mua Ngay',
             image: Slider1
         },
         {
-            title: 'CHẤT LƯỢNG ĐẢM BẢO',
-            description:
-            'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
+            title: 'MIỄN PHÍ VẬN CHUYỂN',
             button: 'Mua Ngay',
             image: Slider2
         },
         {
-            title: 'DỊCH VỤ CHUYÊN NGHIỆP',
-            description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+            title: 'NHẬN ĐẶT HÀNG THEO YÊU CẦU',
             button: 'Mua Ngay',
             image: Slider3
         }
@@ -45,7 +36,6 @@ const Carousel = () => {
                 >
                     <div className="inner pt-6">
                         <h1>{item.title}</h1>
-                        <p>{item.description}</p>
                         <Link to="#nuoc-hoa-nam">
                             <button>{item.button}</button>
                         </Link>

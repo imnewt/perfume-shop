@@ -1,5 +1,6 @@
 {
   "name": "perfume-shop",
+  "homepage": "https://perfumeshop.ga/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
