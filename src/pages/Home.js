@@ -35,8 +35,8 @@ const Home = () => {
         </Row>
       </Container>
       <Container>
-        <div id="nuoc-hoa-mini" class="id-block"></div>
-        <h1 className="heading">nước hoa mini</h1>
+        <div id="nuoc-hoa-unisex" class="id-block"></div>
+        <h1 className="heading">nước hoa unisex</h1>
         <Row>
           <Product url="https://nuochoangoisao.com/wp-content/uploads/2019/03/nuoc-hoa-nam-allure-50ml-1.jpg"/>
           <Product url="https://nuochoangoisao.com/wp-content/uploads/2019/03/nuoc-hoa-nam-allure-50ml-1.jpg"/>

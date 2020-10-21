@@ -21,7 +21,7 @@ const Header = () => {
                 <Navbar color="light" light expand="md">
                     <NavbarBrand>
                         <Link to="/">
-                        <img src={Logo} width={140} height={70} alt="error"/>
+                            <img src={Logo} width={140} height={70} alt="error"/>
                         </Link>
                     </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
@@ -44,7 +44,7 @@ const Header = () => {
                             </NavItem>
                             <NavItem>
                                 <NavLink className="ml-lg-5">
-                                    <Link className="header-link" to="/#nuoc-hoa-mini">Nước hoa mini</Link>
+                                    <Link className="header-link" to="/#nuoc-hoa-unisex">Nước hoa unisex</Link>
                                 </NavLink>
                             </NavItem>
                             <NavItem className="ml-lg-5">

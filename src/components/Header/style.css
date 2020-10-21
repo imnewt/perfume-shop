@@ -6,6 +6,19 @@
     border-bottom: 1px solid #ddd;
 }
 
+/* #header .navbar {
+    padding: 0;
+}
+
+#header .navbar-brand {
+    padding: 0;
+} */
+
+#header img {
+    width: 10rem;
+    height: 5rem;
+}
+
 .header-link {
     text-decoration: none !important;
     color: #000 !important;
